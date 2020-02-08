@@ -1,0 +1,30 @@
+Package: bbcnews
+Type: Package
+Title: BBC News article text analysis
+Version: 0.1.0
+Author: Angelina Khatiwada
+Maintainer: Angelina Khatiwada <linakhatiwada@gmail.com>
+Description: Scrap article text from BBC News website (https://www.bbc.com/news/). 
+             Clean and transform text. 
+             Build a dataframe with the most frequent words. 
+             Plot the most frequent words with wordcloud. 
+             Find terms associations. Analyze sentiment distribution across the article
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: magrittr
+Imports:
+    rvest,
+    xml2,
+    tm,
+    SnowballC,
+    wordcloud,
+    sentimentr,
+    ggplot2,
+    RColorBrewer,
+    utils,
+    devtools,
+    dplyr
+Suggests:
+    plyr
+RoxygenNote: 7.0.2
