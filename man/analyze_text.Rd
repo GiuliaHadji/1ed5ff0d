@@ -33,4 +33,5 @@ Please, check that URL (url_end) exists before running the function,
 \examples{
 analyze_text("world-us-canada-51381625", 100, FALSE)
 analyze_text("entertainment-arts-51398105", 50, TRUE)
+analyze_text("world-us-canada-51408704", 200)
 }

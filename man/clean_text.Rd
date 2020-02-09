@@ -20,7 +20,7 @@ Clean documents in Corpus which include BBC News article text
 }
 \details{
 Transform the symbols like "/", "\\" into space.
-         Stem text, remove numbers, remove engligh stopwords, extra spaces and punctuation, convert text to lower case
+         Stem text, remove numbers, remove english stopwords, extra spaces and punctuation, convert text to lower case
 }
 \note{
 Please, check that URL (url_end) exists before running the function,

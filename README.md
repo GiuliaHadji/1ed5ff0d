@@ -1,6 +1,7 @@
 # bbcnews Package
 
-#### _1ed5ff0d_
+
+### _1ed5ff0d_
 
 bbcnews package is used for scrapping article text from BBC News website (https://www.bbc.com/news/), cleaning, analysing and plotting it 
 
@@ -19,6 +20,7 @@ require(bbcnews)
 ```
 
 ## Functions
+
 Function             | Description                                                                 | Examples
 ---------------------|-----------------------------------------------------------------------------|------------------------
 `get_text()`         | Scrap BBC News article headline and body (from https://www.bbc.com/news/)   | get_text("world-us-canada-51381625")
@@ -28,3 +30,11 @@ Function             | Description                                              
 `analyze_sentiment()`| Analyze sentiment distribution across the article and plot it               | analyze_sentiment("world-us-canada-51381625")
 
 Type ?Function for a complete description of the functions (for example, `?get_text()`)
+
+## Arguments
+
+Argument `url_end` is used in all the functions. `url_end` is a character string, an ending part of BBC News particular atricle URL (everything after https://www.bbc.com/news/). For example, article URL is "https://www.bbc.com/news/world-us-canada-51381625". Only "world-us-canada-51381625" should be pasted in the function
+
+*Note*: Please, check that URL (url_end) exists before running the function, otherwise you will get an "Error in open.connection(x, "rb") : HTTP error 404". Please, insert URLs of the *BBC News* (not Sports, Travel etc.) articles in English only.
+
+
