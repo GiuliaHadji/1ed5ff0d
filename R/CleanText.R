@@ -1,7 +1,7 @@
 #' @title Clean Corpus with BBC News article
 #' @description Clean documents in Corpus which include BBC News article text
 #' @details Transform the symbols like "/", "\\" into space.
-#'          Stem text, remove numbers, remove engligh stopwords, extra spaces and punctuation, convert text to lower case
+#'          Stem text, remove numbers, remove english stopwords, extra spaces and punctuation, convert text to lower case
 #' @param  url_end character string, an ending part of BBC News particular atricle URL (everything after https://www.bbc.com/news/).
 #'                 For example, article URL is "https://www.bbc.com/news/world-us-canada-51381625".
 #'                 Only "world-us-canada-51381625" should be pasted

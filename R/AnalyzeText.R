@@ -15,6 +15,7 @@
 #'       Please, insert URLs of the articles in English only. Only for BBC News, not BBC Sports , Travel, Worklife, etc.
 #' @examples analyze_text("world-us-canada-51381625", 100, FALSE)
 #' @examples analyze_text("entertainment-arts-51398105", 50, TRUE)
+#' @examples analyze_text("world-us-canada-51408704", 200)
 #' @export
 
 analyze_text <- function(url_end, num_word, do_plot = FALSE)

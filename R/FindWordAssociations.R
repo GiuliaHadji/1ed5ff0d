@@ -29,10 +29,10 @@ assoc_word <- function(url_end, word_entry, corr_entry)
     return(print ("Wrong value for correlation. Please, run the function again and input value between 0 and 1"))
 
   } else {
-    # find associations with at least corr.entry correlation for the word.entry input and convert results into a dataframe
+    # find associations with at least corr_entry correlation for the word_entry input and convert results into a dataframe
     assoc <- as.data.frame(tm:: findAssocs(dtm_art, word_entry, corr_entry)) #decreasing order
 
-    #return accoc
+    #return assoc
     return(assoc)
 
   }

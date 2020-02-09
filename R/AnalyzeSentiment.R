@@ -50,7 +50,7 @@ analyze_sentiment <- function(url_end)
          title = "Sentiment Distribution Across The Article") +
     ggplot2::theme(plot.title = ggplot2::element_text(size = 15, hjust = 0.4),
           axis.text.y=ggplot2::element_blank()) -> gg_plot
-?get
+
   #return plot
   return(gg_plot)
 }
