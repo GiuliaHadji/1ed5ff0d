@@ -37,8 +37,10 @@ Argument `url_end` is used in all the functions. `url_end` is a character string
 
 **Note**: Please, check that URL (url_end) exists before running the function, otherwise you will get an "Error in open.connection(x, "rb") : HTTP error 404". Please, insert URLs of the **BBC News** (not Sports, Travel etc.) articles in English only.
 
-##Packages Imported
+## Packages Imported
 rvest, xml2, tm, SnowballC, wordcloud, sentimentr, ggplot2, RColorBrewer, utils, devtools, dplyr, magrittr
 
+
 **Author**: Angelina Khatiwada
+
 **Date**: February 2020
