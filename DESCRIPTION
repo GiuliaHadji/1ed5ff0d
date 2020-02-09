@@ -12,7 +12,6 @@ Description: Scrap article text from BBC News website (https://www.bbc.com/news/
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Depends: magrittr
 Imports:
     rvest,
     xml2,
@@ -24,7 +23,8 @@ Imports:
     RColorBrewer,
     utils,
     devtools,
-    dplyr
+    dplyr,
+    magrittr
 Suggests:
     plyr
 RoxygenNote: 7.0.2

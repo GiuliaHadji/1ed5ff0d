@@ -11,6 +11,7 @@
 #' @examples get_text("world-us-canada-51381625")
 #' @examples get_text("entertainment-arts-35232060")
 #' @export
+#' @importFrom magrittr %>%
 
 get_text <- function(url_end)
 {

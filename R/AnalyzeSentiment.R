@@ -15,6 +15,7 @@
 #' @examples analyze_sentiment("world-us-canada-51381625")
 #' @examples analyze_sentiment("entertainment-arts-35232060")
 #' @export
+#' @importFrom magrittr %>%
 
 analyze_sentiment <- function(url_end)
 {
