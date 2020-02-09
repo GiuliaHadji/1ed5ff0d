@@ -13,8 +13,8 @@
 #' @note Please, check that URL (url_end) exists before running the function,
 #'       otherwise you will get an "Error in open.connection(x, "rb") : HTTP error 404".
 #'       Please, insert URLs of the articles in English only. Only for BBC News, not BBC Sports , Travel, Worklife, etc.
-#' @examples analyze_text("world-us-canada-51381625", 100)
-#' @examples analyze_text("entertainment-arts-51398105", 50)
+#' @examples analyze_text("world-us-canada-51381625", 100, FALSE)
+#' @examples analyze_text("entertainment-arts-51398105", 50, TRUE)
 #' @export
 
 analyze_text <- function(url_end, num_word, do_plot = FALSE)

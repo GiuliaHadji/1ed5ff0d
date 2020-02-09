@@ -31,6 +31,6 @@ Please, check that URL (url_end) exists before running the function,
       Please, insert URLs of the articles in English only. Only for BBC News, not BBC Sports , Travel, Worklife, etc.
 }
 \examples{
-analyze_text("world-us-canada-51381625", 100)
-analyze_text("entertainment-arts-51398105", 50)
+analyze_text("world-us-canada-51381625", 100, FALSE)
+analyze_text("entertainment-arts-51398105", 50, TRUE)
 }
